@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONO -->
+    <link rel="icon" href="img/Logo.png">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>SEFORMER</title>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="header-container">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo.png" alt="Logo Seformer" width="100" height="100">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/Logo.png"
+                                    alt="Logo Seformer" width="80" height="80"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link header-item" href="./index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-item" href="./sobreNosotros.html">Sobre Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-item" href="./admisionRequisitos.html">Admisión y
+                                        Requisitos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-item" href="#">Capacitaciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <div class="banner-title">
+            <h1>CENTRO DE CAPACITACIÓN Y CONSULTORIO TERAPEÚTICO</h1>
+            <h4>TÉCNICAS MÁS EFICACES PARA ALIVIAR TU DOLOR Y MEJORAR LA CALIDAD DE VIDA</h4>
+        </div>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="container my-5 px-4 px-lg-0">
+        <!-- REQUISITOS -->
+        <h5 class="text-center mb-3 fw-bold">Requisitos</h5>
+        <div class="alert alert-secondary mb-4" role="alert">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <ul>
+                        <li>Título de Bachiller.</li>
+                        <li>Copia a color de la cédula de identidad.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <ul>
+                        <li>Copia a color de la papeleta de votación.</li>
+                        <li>2 Fotografías.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORMULARIO -->
+        <h5 class="text-center mb-4 fw-bold">Agenda tu cita</h5>
+        <form>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="nombre">Nombres y apellidos</span>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo"
+                            aria-label="Ingrese su nombre completo">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="cedula">Cédula</span>
+                        <input type="text" class="form-control" id="cedula" placeholder="Ingrese su cédula"
+                            aria-label="Ingrese su cédula">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="fechaN">Fecha de nacimiento</span>
+                        <input type="date" class="form-control" id="fechaN">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="edad">Edad</span>
+                        <input type="text" class="form-control" id="edad" placeholder="Ingrese su edad"
+                            aria-label="Ingrese su edad">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="celular">Celular</span>
+                        <input type="text" class="form-control" id="celular" placeholder="Ingrese su número de celular"
+                            aria-label="Ingrese su número de celular">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="correo">Correo electrónico</span>
+                        <input type="text" class="form-control" id="correo" placeholder="Ingrese su correo electrónico"
+                            aria-label="Ingrese su correo electrónico">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="fechaC">Fecha cita</span>
+                        <input type="datetime-local" class="form-control" id="fechaC">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="sector">Sector</span>
+                        <input type="text" class="form-control" id="sector" placeholder="Ingrese el sector donde vive"
+                            aria-label="Ingrese el sector donde vive">
+                    </div>
+                    <div class="input-group flex-nowrap mb-3">
+                        <span class="input-group-text" id="terapias">Terapias</span>
+                        <select name="terapias" class="form-select" id="terapias">
+                            <option value="0" disabled selected>Seleccione una opción</option>
+                            <option value="Reflexología">Reflexología</option>
+                            <option value="Biomagnetismo">Biomagnetismo</option>
+                            <option value="Terapia floral">Terapia floral</option>
+                        </select>
+                    </div>
+                    <h6 class="fw-bold">¿Por qué medio se enteró del servicio?</h6>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Redes Sociales</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Página Web</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Referencias</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Otros</label>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success d-block mx-auto mt-3" value="Enviar">
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-container py-3">
+        <div class="container">
+            <div
+                class="d-flex flex-wrap flex-column flex-md-row justify-content-between align-items-center py-3 my-3 border-top">
+                <span class="mb-3 mb-md-0 text-light">&copy; 2023 Copyright: Seformer</span>
+                <div>
+                    <a class="px-2 fs-4 text-light" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="px-2 fs-4 text-light" href="#"><i class="bi bi-instagram"></i></a>
+                    <a class="px-2 fs-4 text-light" href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP 5 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- JQUERY -->
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
